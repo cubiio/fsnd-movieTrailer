@@ -1,3 +1,6 @@
+# Python file which builds the HTML webpage, showing films, metadata and 
+# displaying trailers when clicked on
+
 import webbrowser
 import os
 import re

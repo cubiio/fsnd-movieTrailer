@@ -4,7 +4,9 @@ import webbrowser
 # defines Movie class, metadata & function to show the trailer
 
 class Movie():
-    """Stores film metadata for each film instance"""
+    """
+    Stores film metadata for each film instance
+    """
 
     def __init__(self, movie_title, movie_storyline,
                  poster_image_url, trailer_youtube_url, movie_date, movie_stars):
@@ -17,7 +19,7 @@ class Movie():
 
 
 # opens browers and plays film trailer
-#
+
 def show_trailer(self):
     """
     plays film trailer
