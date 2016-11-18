@@ -123,6 +123,8 @@ movie_tile_content = '''
     <img src="{poster_image_url}" width="220" height="342">
     <h2>{movie_title}</h2>
     <p>{movie_storyline}</p>
+    <p class="movie-date">{movie_date}</p>
+    <p class ="movie-stars">{movie_stars}</p>
 </div>
 '''
 
@@ -140,9 +142,9 @@ def create_movie_tiles_content(movies):
             movie_title=movie.title,
             poster_image_url=movie.poster_image_url,
             trailer_youtube_id=trailer_youtube_id,
-            
-            # further film metadata added below
-            movie_storyline=movie.storyline
+            movie_storyline=movie.storyline,
+            movie_date=movie.date,
+            movie_stars=movie.stars
         )
     return content
 
