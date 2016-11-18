@@ -12,7 +12,7 @@ The users will be able to view a web page, see the movies and watch a trailer fo
 
 
 ## Status
-*WIP*
+*Passed*
 
 
 ## Built with:
